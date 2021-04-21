@@ -17,7 +17,7 @@
 //= require jquery
 //= require rails-ujs
 //= require activestorage
-//= require turbolinks
+
 //= require_tree .
 
 document.addEventListener("turbolinks:load"
@@ -32,15 +32,18 @@ $(function() {
 });
 
 
- document.addEventListener("turbolinks:load"
-, function () {
-$(function() {
-  $('.a').slick({
-      fade: true,
-      autoplay: true, //自動再生
-      autoplaySpeed: 4000, //再生スピード
-      // 無限スクロールにするかどうか。最後の画像の次は最初の画像が表示される。
-      infinite: true,
+$(function(){
+  $("#slider").slick({
+    autoplay: true,
+    speed: 1000,
+    arrows: false,
+    asNavFor: "#thumbnail_slider",
+    fade: true
+  });
+  $("#thumbnail_slider").slick({
+    slidesToShow: 3,
+    speed: 1000,
+    asNavFor: "#slider"
   });
 });
-});
+

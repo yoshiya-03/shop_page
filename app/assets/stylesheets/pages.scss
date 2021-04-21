@@ -71,27 +71,24 @@
   text-align: center;
 }
 
-a {
-
-	text-decoration: none;
-
-	outline: none;
-
-	color: #010101;
-
-	transition-delay: 0s;
-
-	transition-duration: 0.6s;
-
-	transition-property: all;
-
-	transition-timing-function: ease;
-
+#wrap{
+  background-color: #ddd;
+  padding: 50px 0;
+}
+#slider,#hoge{
+  width: 500px;
+  margin: 0 auto ;
+}
+.slide-item{
+  img{
+    width: 100%;
+  }
 }
 
+
 .c {
-  background: image-url('img2.jpg');
-  width: 25%;
+  background: image-url('img1.jpg');
+  width: 100%;
   margin: 0 auto;
   height: 500px;
   background-size: cover;
@@ -100,20 +97,59 @@ a {
 
 .d {
   background: image-url('img2.jpg');
-  width: 25%;
+  width: 100%;
   margin: 0 auto;
   height: 500px;
   background-size: cover;
   background-position: center;
 }
-
 
 .e {
-  background: image-url('img2.jpg');
-  width: 25%;
+  background: image-url('img3.jpg');
+  width: 100%;
+  margin: 30px 30px;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+.f {
+  background: image-url('img4.jpg');
+  width: 100%;
   margin: 0 auto;
   height: 500px;
   background-size: cover;
   background-position: center;
 }
 
+.c2 {
+  background: image-url('img1.jpg');
+  width: 50%;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+
+.d2 {
+  background: image-url('img2.jpg');
+  width: 50%;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+
+.e2 {
+  background: image-url('img3.jpg');
+  width: 50%;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+
+.f2 {
+  background: image-url('img4.jpg');
+  width: 50%;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
