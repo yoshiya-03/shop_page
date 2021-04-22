@@ -73,83 +73,122 @@
 
 #wrap{
   background-color: #ddd;
-  padding: 50px 0;
+  padding: 25px 25px;
 }
-#slider,#hoge{
-  width: 500px;
+
+
+
+@font-face {
+
+	font-family: 'Roboto', sans-serif;
+
+	font-family: 'Oranienbaum', serif;
+
+}
+
+#wrap,#a{
+  height: 650px;
+  width: 90%;
   margin: 0 auto ;
 }
-.slide-item{
+.a{
   img{
     width: 100%;
   }
 }
 
-
 .c {
-  background: image-url('img1.jpg');
-  width: 100%;
-  margin: 0 auto;
-  height: 500px;
+  background-image: image-url('scare_210422_0.jpg');
   background-size: cover;
+  margin: 0 auto;
+  height: 600px;
   background-position: center;
 }
 
 .d {
-  background: image-url('img2.jpg');
-  width: 100%;
+  background-image: image-url('scare_210422_1.jpg');
   margin: 0 auto;
-  height: 500px;
+  height: 600px;
   background-size: cover;
   background-position: center;
 }
 
 .e {
-  background: image-url('img3.jpg');
-  width: 100%;
-  margin: 30px 30px;
-  height: 500px;
+  background-image: image-url('scare_210422_2.jpg');
+  margin: 0 auto;
+  height: 600px;
   background-size: cover;
   background-position: center;
 }
 
 .f {
-  background: image-url('img4.jpg');
-  width: 100%;
+  background-image: image-url('scare_210422_3.jpg');
   margin: 0 auto;
-  height: 500px;
+  height: 600px;
   background-size: cover;
   background-position: center;
 }
 
-.c2 {
-  background: image-url('img1.jpg');
-  width: 50%;
-  height: 250px;
+.g {
+  background-image: image-url('scare_210422_4.jpg');
+  margin: 0 auto;
+  height: 600px;
   background-size: cover;
   background-position: center;
 }
 
-.d2 {
-  background: image-url('img2.jpg');
-  width: 50%;
-  height: 250px;
+.h {
+  background-image: image-url('scare_210422_5.jpg');
+  margin: 0 auto;
+  height: 600px;
   background-size: cover;
   background-position: center;
 }
 
-.e2 {
-  background: image-url('img3.jpg');
-  width: 50%;
-  height: 250px;
+.i {
+  background-image: image-url('scare_210422_6.jpg');
+  margin: 0 auto;
+  height: 600px;
   background-size: cover;
   background-position: center;
 }
 
-.f2 {
-  background: image-url('img4.jpg');
-  width: 50%;
-  height: 250px;
+.j {
+  background-image: image-url('scare_210422_7.jpg');
+  margin: 0 auto;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+
+.k {
+  background-image: image-url('scare_210422_8.jpg');
+  margin: 0 auto;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+
+.l {
+  background-image: image-url('scare_210422_9.jpg');
+  margin: 0 auto;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+
+.m {
+  background-image: image-url('scare_210422_10.jpg');
+  margin: 0 auto;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+
+.n {
+  background-image: image-url('scare_210422_11.jpg');
+  margin: 0 auto;
+  height: 600px;
   background-size: cover;
   background-position: center;
 }
