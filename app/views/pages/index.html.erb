@@ -34,9 +34,25 @@
   </div>
 </div>
 
-<div class="img_show">
-  <link_to><div class="img0"></div>
+<div class="container">
+  <div class="row">
+      <div class="col-lg-3">
+      <div class="img_show">
+
+       <%= link_to look_images_look0_path do %>
+       <%= image_tag "img1.jpg", class:'icon' %>
+       <% end %>
+
+
+       <%= link_to lookimages_look1_path do %>
+       <div class="img1"></div>
+       <% end %>
+
+      </div>
+  </div>
 </div>
+</div>
+
 
 
 
