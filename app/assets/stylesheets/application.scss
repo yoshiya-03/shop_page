@@ -19,3 +19,8 @@
 @import "slick-theme";
 @import "slick";
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+
+.slick-prev:before,
+ .slick-next:before {
+   color: black;
+ }

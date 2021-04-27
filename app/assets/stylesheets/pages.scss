@@ -2,6 +2,11 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.slick-prev:before,
+ .slick-next:before {
+   color: black;
+ }
+
 .homes-top-box {
   overflow: hidden;
   white-space: nowrap;
@@ -12,18 +17,7 @@
   margin-top: 40px;
 }
 
-.homes-top-image {
-  border: 1px solid #000;
-  margin: 0 auto;
-  height: 600px;
-  background: image-url('img1.jpg');
-  background-size: 100% auto;
-  background-position: center;
 
-
-  background-color: rgba(0, 0, 0, 0.7);
-  box-shadow: 10px 10px 15px -10px;
-}
 
 .homes-top-text {
   height: 200px;
@@ -40,15 +34,6 @@
   padding-top: 35px;
 }
 
-.homes-top-under-menu-title {
-  margin-top: 15px;
-}
-
-.homes-top-under-menu {
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 20px;
-}
 
 .about-top-wrapper {
   margin-top: 40px;
@@ -71,10 +56,7 @@
   text-align: center;
 }
 
-#wrap{
-  background-color: #ddd;
-  padding: 25px 25px;
-}
+
 
 
 
@@ -86,111 +68,109 @@
 
 }
 
-#wrap,#a{
-  height: 650px;
-  width: 90%;
-  margin: 0 auto ;
-}
-.a{
-  img{
-    width: 100%;
-  }
+.a {
+  background-color: gray;
 }
 
+
 .c {
-  background-image: image-url('scare_210422_0.jpg');
-  background-size: cover;
+  background-image: image-url('img1.jpg');
   margin: 0 auto;
   height: 600px;
+  width: 100%;
+  background-size: cover;
   background-position: center;
+
+
 }
 
 .d {
-  background-image: image-url('scare_210422_1.jpg');
+  background-image: image-url('img2.jpg');
   margin: 0 auto;
   height: 600px;
-  background-size: cover;
-  background-position: center;
+  width: 400px;
+  background-size: contain;
+
 }
 
 .e {
-  background-image: image-url('scare_210422_2.jpg');
+  background-image: image-url('img3.jpg');
   margin: 0 auto;
   height: 600px;
-  background-size: cover;
-  background-position: center;
+  width: 400px;
+  background-size: contain;
 }
 
 .f {
-  background-image: image-url('scare_210422_3.jpg');
+  background-image: image-url('img4.jpg');
   margin: 0 auto;
   height: 600px;
-  background-size: cover;
-  background-position: center;
+  width: 400px;
+  background-size: contain;
 }
 
 .g {
-  background-image: image-url('scare_210422_4.jpg');
+  background-image: image-url('img5.jpg');
   margin: 0 auto;
   height: 600px;
-  background-size: cover;
-  background-position: center;
+  width: 400px;
+  background-size: contain;
 }
 
 .h {
-  background-image: image-url('scare_210422_5.jpg');
+  background-image: image-url('img6.jpg');
   margin: 0 auto;
   height: 600px;
-  background-size: cover;
-  background-position: center;
+  width: 400px;
+  background-size: contain;
 }
 
 .i {
-  background-image: image-url('scare_210422_6.jpg');
+  background-image: image-url('img7.jpg');
   margin: 0 auto;
   height: 600px;
-  background-size: cover;
-  background-position: center;
+  width: 400px;
+  background-size: contain;
 }
 
 .j {
-  background-image: image-url('scare_210422_7.jpg');
+  background-image: image-url('img8.jpg');
   margin: 0 auto;
   height: 600px;
-  background-size: cover;
-  background-position: center;
+  width: 400px;
+  background-size: contain;
 }
 
 .k {
-  background-image: image-url('scare_210422_8.jpg');
+  background-image: image-url('img9.jpg');
   margin: 0 auto;
   height: 600px;
-  background-size: cover;
-  background-position: center;
+  width: 400px;
+  background-size: contain;
 }
 
 .l {
-  background-image: image-url('scare_210422_9.jpg');
+  background-image: image-url('img10.jpg');
   margin: 0 auto;
   height: 600px;
-  background-size: cover;
-  background-position: center;
+  width: 400px;
+  background-size: contain;
 }
 
 .m {
-  background-image: image-url('scare_210422_10.jpg');
+  background-image: image-url('img11.jpg');
   margin: 0 auto;
   height: 600px;
-  background-size: cover;
-  background-position: center;
+  width: 400px;
+  background-size: contain;
 }
 
 .n {
-  background-image: image-url('scare_210422_11.jpg');
+  background-image: image-url('img12.jpg');
   margin: 0 auto;
   height: 600px;
-  background-size: cover;
-  background-position: center;
+  width: 400px;
+  background-size: contain;
 }
 
 .image_show {
@@ -201,9 +181,9 @@
 
 
 .icon{
-  margin: 20px 20px;
-  width: 200px;
-  height: 230px;
+  margin: 20px 60px;
+  width: 400px;
+  height: 480px;
   background-size: cover;
   background-position: center;
 }
