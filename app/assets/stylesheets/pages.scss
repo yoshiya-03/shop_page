@@ -80,8 +80,6 @@
   width: 100%;
   background-size: cover;
   background-position: center;
-
-
 }
 
 .d {
@@ -89,7 +87,7 @@
   margin: 0 auto;
   height: 600px;
   width: 400px;
-  background-size: contain;
+  background-size: cover;
 
 }
 
@@ -98,7 +96,7 @@
   margin: 0 auto;
   height: 600px;
   width: 400px;
-  background-size: contain;
+  background-size: cover;
 }
 
 .f {
@@ -106,7 +104,7 @@
   margin: 0 auto;
   height: 600px;
   width: 400px;
-  background-size: contain;
+  background-size: cover;
 }
 
 .g {
@@ -114,7 +112,7 @@
   margin: 0 auto;
   height: 600px;
   width: 400px;
-  background-size: contain;
+  background-size: cover;
 }
 
 .h {
@@ -122,7 +120,7 @@
   margin: 0 auto;
   height: 600px;
   width: 400px;
-  background-size: contain;
+  background-size: cover;
 }
 
 .i {
@@ -130,7 +128,7 @@
   margin: 0 auto;
   height: 600px;
   width: 400px;
-  background-size: contain;
+  background-size: cover;
 }
 
 .j {
@@ -138,7 +136,7 @@
   margin: 0 auto;
   height: 600px;
   width: 400px;
-  background-size: contain;
+  background-size: cover;
 }
 
 .k {
@@ -146,7 +144,7 @@
   margin: 0 auto;
   height: 600px;
   width: 400px;
-  background-size: contain;
+  background-size: cover;
 }
 
 .l {
@@ -154,7 +152,7 @@
   margin: 0 auto;
   height: 600px;
   width: 400px;
-  background-size: contain;
+  background-size: cover;
 }
 
 .m {
@@ -162,7 +160,7 @@
   margin: 0 auto;
   height: 600px;
   width: 400px;
-  background-size: contain;
+  background-size: cover;
 }
 
 .n {
@@ -170,7 +168,7 @@
   margin: 0 auto;
   height: 600px;
   width: 400px;
-  background-size: contain;
+  background-size: cover;
 }
 
 .image_show {
@@ -178,13 +176,291 @@
 	flex-wrap: wrap;
 }
 
-
-
-.icon{
-  margin: 20px 60px;
+.box-1 {
+  background-image: image-url('img1.jpg');
+  margin-top: 20px;
+  margin-left: 120px;
   width: 400px;
   height: 480px;
   background-size: cover;
   background-position: center;
 }
 
+.box-2 {
+  background-image: image-url('img2.jpg');
+  margin-top: 20px;
+  margin-left: 120px;
+  width: 400px;
+  height: 480px;
+  background-size: cover;
+  background-position: center;
+}
+
+.box-3 {
+  background-image: image-url('img3.jpg');
+  margin-top: 20px;
+  margin-left: 120px;
+  width: 400px;
+  height: 480px;
+  background-size: cover;
+  background-position: center;
+}
+
+.box-4 {
+  background-image: image-url('img4.jpg');
+  margin-top: 20px;
+  width: 400px;
+  height: 480px;
+  background-size: cover;
+  background-position: center;
+}
+
+.box-5 {
+  background-image: image-url('img5.jpg');
+  margin-top: 20px;
+  width: 400px;
+  height: 480px;
+  background-size: cover;
+  background-position: center;
+}
+
+.box-6 {
+  background-image: image-url('img6.jpg');
+  margin-top: 20px;
+  width: 400px;
+  height: 480px;
+  background-size: cover;
+  background-position: center;
+}
+
+ul {
+  list-style: none;
+}
+
+// タブレット画面のレスポンシブ対応
+@media screen and (max-width:1024px) {
+
+  .box-1 {
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .box-2 {
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .box-3 {
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .box-4 {
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .box-5 {
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .box-6 {
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+  }
+
+
+}
+
+// スマホ画面のレスポンシブ対応
+@media screen and (max-width: 425px) {
+  .background {
+    margin: 0 auto;
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+  }
+
+  .image_show {
+  width : 100%;
+  display: flex;
+	flex-wrap: wrap;
+  }
+
+  .c {
+  background-image: image-url('img1.jpg');
+  margin-top: 0 auto;
+  height: 600px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.d {
+  background-image: image-url('img2.jpg');
+  margin: 0 auto;
+  height: 600px;
+  width: 400px;
+  background-size: cover;
+
+}
+
+.e {
+  background-image: image-url('img3.jpg');
+  margin: 0 auto;
+  height: 600px;
+  width: 400px;
+  background-size: cover;
+}
+
+.f {
+  background-image: image-url('img4.jpg');
+  margin: 0 auto;
+  height: 600px;
+  width: 400px;
+  background-size: cover;
+}
+
+.g {
+  background-image: image-url('img5.jpg');
+  margin: 0 auto;
+  height: 600px;
+  width: 400px;
+  background-size: cover;
+}
+
+.h {
+  background-image: image-url('img6.jpg');
+  margin: 0 auto;
+  height: 600px;
+  width: 400px;
+  background-size: cover;
+}
+
+.i {
+  background-image: image-url('img7.jpg');
+  margin: 0 auto;
+  height: 600px;
+  width: 400px;
+  background-size: cover;
+}
+
+.j {
+  background-image: image-url('img8.jpg');
+  margin: 0 auto;
+  height: 600px;
+  width: 400px;
+  background-size: cover;
+}
+
+.k {
+  background-image: image-url('img9.jpg');
+  margin: 0 auto;
+  height: 600px;
+  width: 400px;
+  background-size: cover;
+}
+
+.l {
+  background-image: image-url('img10.jpg');
+  margin: 0 auto;
+  height: 600px;
+  width: 400px;
+  background-size: cover;
+}
+
+.m {
+  background-image: image-url('img11.jpg');
+  margin: 0 auto;
+  height: 600px;
+  width: 400px;
+  background-size: cover;
+}
+
+.n {
+  background-image: image-url('img12.jpg');
+  margin: 0 auto;
+  height: 600px;
+  width: 400px;
+  background-size: cover;
+}
+
+  .box-1 {
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .box-2 {
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .box-3 {
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .box-4 {
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .box-5 {
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .box-6 {
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+  }
+}
