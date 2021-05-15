@@ -234,14 +234,6 @@ ul {
   list-style: none;
 }
 
-.icon{
-  margin: 20px 60px;
-  width: 400px;
-  height: 480px;
-  background-size: cover;
-  background-position: center;
-}
-
 @media screen and (max-width: 425px) {
   .background {
     margin: 0 auto;
@@ -255,7 +247,7 @@ ul {
   display: flex;
 	flex-wrap: wrap;
   }
-  
+
   .c {
   background-image: image-url('img1.jpg');
   margin: 0 auto;
@@ -355,56 +347,63 @@ ul {
 }
 
   .box-1 {
-  margin-top: 20px;
-  margin-right: 20px;
-  width: 100%;
-  height: 200px;
-  background-size: cover;
-  background-position: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
   }
 
   .box-2 {
-  margin-top: 20px;
-  margin-right: 20px;
-  width: 100%;
-  height: 200px;
-  background-size: cover;
-  background-position: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
   }
 
   .box-3 {
-  margin-top: 20px;
-  margin-right: 20px;
-  width: 100%;
-  height: 200px;
-  background-size: cover;
-  background-position: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
   }
 
   .box-4 {
-  margin-top: 20px;
-  margin-right: 20px;
-  width: 100%;
-  height: 200px;
-  background-size: cover;
-  background-position: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
   }
 
   .box-5 {
-  margin-top: 20px;
-  margin-right: 20px;
-  width: 100%;
-  height: 200px;
-  background-size: cover;
-  background-position: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
   }
 
   .box-6 {
-  margin-top: 20px;
-  margin-right: 20px;
-  width: 100%;
-  height: 200px;
-  background-size: cover;
-  background-position: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
   }
+
+  .row {
+    margin-left: 10px;
+  }
+
 }
+
+
