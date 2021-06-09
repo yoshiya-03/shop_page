@@ -97,7 +97,7 @@
   height: 600px;
   width: 400px;
   background-size: cover;
-  background-position: center
+  background-position: center;
 }
 
 .f {
@@ -681,7 +681,7 @@ ul {
     background-size: cover;
     background-position: center;
   }
-  
+
   .box-22{
     margin-top: 20px;
     margin-left: 0px;
@@ -712,8 +712,9 @@ ul {
   }
 
   .c {
+
   background-image: image-url('img1.jpg');
-  margin-top: 0 auto;
+  margin: 0 auto;
   height: 600px;
   width: 100%;
   background-size: cover;
@@ -1071,7 +1072,7 @@ ul {
     background-size: cover;
     background-position: center;
   }
-  
+
   .box-22 {
     margin-top: 20px;
      margin-left: 0px;
@@ -1080,5 +1081,5 @@ ul {
     background-size: cover;
     background-position: center;
   }
-  
+
 }
