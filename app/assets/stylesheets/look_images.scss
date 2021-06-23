@@ -3,19 +3,23 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .look1_image {
+  margin-left: 30%;
+  max-width: 40%;
   background-image: image-url('img2.jpg');
   width: 100%;
-  height: 670px;
+  height: 900px;
   background-size: cover;
   background-position: center;
-  margin-top: 50px;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
 .look2_image {
+  margin-left: 30%;
+  max-width: 40%;
   background-image: image-url('img4.jpg');
   width: 100%;
-  height: 700px;
+  height: 900px;
   background-size: cover;
   background-position: center;
   margin-top: 20px;
@@ -23,9 +27,11 @@
 }
 
 .look3_image {
+  margin-left: 30%;
+  max-width: 40%;
   background-image: image-url('img6.jpg');
   width: 100%;
-  height: 700px;
+  height: 900px;
   background-size: cover;
   background-position: center;
   margin-top: 20px;
@@ -33,9 +39,11 @@
 }
 
 .look4_image {
+  margin-left: 30%;
+  max-width: 40%;
   background-image: image-url('img8.jpg');
   width: 100%;
-  height: 780px;
+  height: 900px;
   background-size: cover;
   background-position: center;
   margin-top: 20px;
@@ -43,9 +51,11 @@
 }
 
 .look5_image {
+  margin-left: 30%;
+  max-width: 40%;
   background-image: image-url('img10.jpg');
   width: 100%;
-  height: 700px;
+  height: 900px;
   background-size: cover;
   background-position: center;
   margin-top: 20px;
@@ -53,9 +63,11 @@
 }
 
 .look6_image {
+  margin-left: 30%;
+  max-width: 40%;
   background-image: image-url('img12.jpg');
   width: 100%;
-  height: 700px;
+  height: 900px;
   background-size: cover;
   background-position: center;
   margin-top: 20px;
@@ -63,9 +75,11 @@
 }
 
 .look7_image {
+  margin-left: 30%;
+  max-width: 40%;
   background-image: image-url('img14.jpg');
   width: 100%;
-  height: 700px;
+  height: 900px;
   background-size: cover;
   background-position: center;
   margin-top: 20px;
@@ -73,9 +87,11 @@
 }
 
 .look8_image {
+  margin-left: 30%;
+  max-width: 40%;
   background-image: image-url('img16.jpg');
   width: 100%;
-  height: 700px;
+  height: 900px;
   background-size: cover;
   background-position: center;
   margin-top: 20px;
@@ -83,9 +99,11 @@
 }
 
 .look9_image {
+  margin-left: 30%;
+  max-width: 40%;
   background-image: image-url('img18.jpg');
   width: 100%;
-  height: 700px;
+  height: 900px;
   background-size: cover;
   background-position: center;
   margin-top: 20px;
@@ -93,6 +111,8 @@
 }
 
 .look10_image {
+  margin-left: 30%;
+  max-width: 40%;
   background-image: image-url('img20.jpg');
   width: 100%;
   height: 900px;
@@ -103,6 +123,8 @@
 }
 
 .look11_image {
+  margin-left: 30%;
+  max-width: 40%;
   background-image: image-url('img3.jpg');
   width: 100%;
   height: 900px;
@@ -113,9 +135,11 @@
 }
 
 .look12_image {
+  margin-left: 30%;
+  max-width: 40%;
   background-image: image-url('img5.jpg');
   width: 100%;
-  height: 900px;
+  height: 1200px;
   background-size: cover;
   background-position: center;
   margin-top: 20px;
@@ -123,6 +147,8 @@
 }
 
 .look13_image {
+  margin-left: 30%;
+  max-width: 40%;
   background-image: image-url('img7.jpg');
   width: 100%;
   height: 900px;
@@ -133,6 +159,8 @@
 }
 
 .look14_image {
+  margin-left: 30%;
+  max-width: 40%;
   background-image: image-url('img9.jpg');
   width: 100%;
   height: 900px;
@@ -143,6 +171,8 @@
 }
 
 .look15_image {
+  margin-left: 30%;
+  max-width: 40%;
   background-image: image-url('img11.jpg');
   width: 100%;
   height: 900px;
@@ -153,6 +183,8 @@
 }
 
 .look16_image {
+  margin-left: 30%;
+  max-width: 40%;
   background-image: image-url('img13.jpg');
   width: 100%;
   height: 900px;
@@ -163,6 +195,8 @@
 }
 
 .look17_image {
+  margin-left: 30%;
+  max-width: 40%;
   background-image: image-url('img15.jpg');
   width: 100%;
   height: 900px;
@@ -173,6 +207,8 @@
 }
 
 .look18_image {
+  margin-left: 30%;
+  max-width: 40%;
   background-image: image-url('img17.jpg');
   width: 100%;
   height: 900px;
@@ -183,6 +219,8 @@
 }
 
 .look19_image {
+  margin-left: 30%;
+  max-width: 40%;
   background-image: image-url('img19.jpg');
   width: 100%;
   height: 900px;
@@ -193,6 +231,8 @@
 }
 
 .look20_image {
+  margin-left: 30%;
+  max-width: 40%;
   background-image: image-url('img21.jpg');
   width: 100%;
   height: 900px;
@@ -203,5 +243,245 @@
 }
 
 .btn-outline-info {
+  margin-left: 30%;
   margin-top: 30px;
+}
+
+// ipad対応
+@media screen and (max-width:950px) {
+  .look1_image {
+    margin-left: 0px;
+    max-width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .look2_image {
+    margin-left: 0px;
+    max-width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .look3_image {
+    margin-left: 0px;
+    max-width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .look4_image {
+    margin-left: 0px;
+    max-width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .look5_image {
+    margin-left: 0px;
+    max-width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .look6_image {
+    margin-left: 0px;
+    max-width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .look7_image {
+    margin-left: 0px;
+    max-width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 0px;
+  }
+
+  .look8_image {
+    margin-left: 0px;
+    max-width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .look9_image {
+    margin-left: 0px;
+    max-width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .look10_image {
+    margin-left: 0px;
+    max-width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .look11_image {
+    margin-left: 0px;
+    max-width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .look12_image {
+    margin-left: 0px;
+    max-width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .look13_image {
+    margin-left: 0px;
+    max-width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .look14_image {
+    margin-left: 0px;
+    max-width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .look15_image {
+    margin-left: 0px;
+    max-width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .look16_image {
+    margin-left: 0px;
+    max-width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .look17_image {
+    margin-left: 0px;
+    max-width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .look18_image {
+    margin-left: 0px;
+    max-width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .look19_image {
+    margin-left: 0px;
+    max-width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .look20_image {
+    margin-left: 0px;
+    max-width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .btn-outline-info {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+}
+
+@media screen and (max-width: 425px) {
+
+  .look13_image {
+    background-position-x: 93%;
+  }
+
+  .look18_image {
+    background-position-x: 93%;
+  }
 }
