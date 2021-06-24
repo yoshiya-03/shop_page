@@ -66,6 +66,4 @@ class LookImagesController < ApplicationController
   def look21
   end
 
-
-
 end
